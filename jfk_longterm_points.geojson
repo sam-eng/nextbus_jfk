@@ -12,7 +12,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Long Term Parking Lot\nDirection: loop\nStop: Howard Beach AirTrain Station"
+                "description": "<p>Route: Long Term Parking Lot</p>\n<p>Direction: loop</p>\n<p>Stop: Howard Beach AirTrain Station</p>"
             }
         },
         {
@@ -26,7 +26,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Long Term Parking Lot\nDirection: loop\nStop: Long Term 1"
+                "description": "<p>Route: Long Term Parking Lot</p>\n<p>Direction: loop</p>\n<p>Stop: Long Term 1</p>"
             }
         },
         {
@@ -40,7 +40,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Long Term Parking Lot\nDirection: loop\nStop: Long Term 2"
+                "description": "<p>Route: Long Term Parking Lot</p>\n<p>Direction: loop</p>\n<p>Stop: Long Term 2</p>"
             }
         },
         {
@@ -54,7 +54,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Long Term Parking Lot\nDirection: loop\nStop: Long Term 3"
+                "description": "<p>Route: Long Term Parking Lot</p>\n<p>Direction: loop</p>\n<p>Stop: Long Term 3</p>"
             }
         },
         {
@@ -68,7 +68,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Long Term Parking Lot\nDirection: loop\nStop: Long Term 4"
+                "description": "<p>Route: Long Term Parking Lot</p>\n<p>Direction: loop</p>\n<p>Stop: Long Term 4</p>"
             }
         },
         {
@@ -82,7 +82,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Long Term Parking Lot\nDirection: loop\nStop: Long Term 4"
+                "description": "<p>Route: Long Term Parking Lot</p>\n<p>Direction: loop</p>\n<p>Stop: Long Term 4</p>"
             }
         },
         {
@@ -96,7 +96,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Long Term Parking Lot\nDirection: loop\nStop: Long Term 6"
+                "description": "<p>Route: Long Term Parking Lot</p>\n<p>Direction: loop</p>\n<p>Stop: Long Term 6</p>"
             }
         },
         {
@@ -110,7 +110,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Long Term Parking Lot\nDirection: loop\nStop: Long Term 7"
+                "description": "<p>Route: Long Term Parking Lot</p>\n<p>Direction: loop</p>\n<p>Stop: Long Term 7</p>"
             }
         },
         {
@@ -124,7 +124,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Long Term Parking Lot\nDirection: loop\nStop: Long Term 8"
+                "description": "<p>Route: Long Term Parking Lot</p>\n<p>Direction: loop</p>\n<p>Stop: Long Term 8</p>"
             }
         },
         {
@@ -138,7 +138,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Long Term Parking Lot\nDirection: loop\nStop: Long Term 9"
+                "description": "<p>Route: Long Term Parking Lot</p>\n<p>Direction: loop</p>\n<p>Stop: Long Term 9</p>"
             }
         }
     ]

@@ -6,13 +6,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.8297409,
-                    40.6611396
+                    -73.82144,
+                    40.661896
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Employee Lot \nDirection: loop\nStop: Howard Beach AirTrain Station"
+                "description": "<p>Route: Employee Lot </p>\n<p>Direction: loop</p>\n<p>Stop: Employee Lot 1</p>"
             }
         },
         {
@@ -20,13 +20,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.8264271,
-                    40.6586363
+                    -73.82005,
+                    40.6623759
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Employee Lot \nDirection: loop\nStop: Long Term 1"
+                "description": "<p>Route: Employee Lot </p>\n<p>Direction: loop</p>\n<p>Stop: Employee Lot 2</p>"
             }
         },
         {
@@ -34,13 +34,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.8263099,
-                    40.6593042
+                    -73.8202782,
+                    40.663066
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Employee Lot \nDirection: loop\nStop: Long Term 2"
+                "description": "<p>Route: Employee Lot </p>\n<p>Direction: loop</p>\n<p>Stop: Employee Lot 3</p>"
             }
         },
         {
@@ -48,13 +48,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.826061,
-                    40.6605638
+                    -73.8222246,
+                    40.6632899
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Employee Lot \nDirection: loop\nStop: Long Term 3"
+                "description": "<p>Route: Employee Lot </p>\n<p>Direction: loop</p>\n<p>Stop: Employee Lot 4</p>"
             }
         },
         {
@@ -62,83 +62,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.825896,
-                    40.6613919
+                    -73.8231767,
+                    40.6622196
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Employee Lot \nDirection: loop\nStop: Long Term 4"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.8258468,
-                    40.6616784
-                ]
-            },
-            "properties": {
-                "title": "Next Tracked Vehicles",
-                "description": "Route: Employee Lot \nDirection: loop\nStop: Long Term 4"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.827755,
-                    40.662571
-                ]
-            },
-            "properties": {
-                "title": "Next Tracked Vehicles",
-                "description": "Route: Employee Lot \nDirection: loop\nStop: Long Term 6"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.8286068,
-                    40.6636359
-                ]
-            },
-            "properties": {
-                "title": "Next Tracked Vehicles",
-                "description": "Route: Employee Lot \nDirection: loop\nStop: Long Term 7"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.8305931,
-                    40.6634309
-                ]
-            },
-            "properties": {
-                "title": "Next Tracked Vehicles",
-                "description": "Route: Employee Lot \nDirection: loop\nStop: Long Term 8"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.830686,
-                    40.6624571
-                ]
-            },
-            "properties": {
-                "title": "Next Tracked Vehicles",
-                "description": "Route: Employee Lot \nDirection: loop\nStop: Long Term 9"
+                "description": "<p>Route: Employee Lot </p>\n<p>Direction: loop</p>\n<p>Stop: Employee Lot 5</p>"
             }
         }
     ]

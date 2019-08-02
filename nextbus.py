@@ -105,15 +105,15 @@ def stop_to_geojson(data, title, direction):
     feature["properties"]["title"] = "Next Tracked Vehicles"
     #feature["properties"]["description"] = {}
     description_items = []
-    description_items.append("Route: " + title)
-    description_items.append("Direction: " + direction)
-    description_items.append("Stop: " + data["title"])
+    description_items.append("<p style=\"margin:0\">Route: " + title + "</p>")
+    description_items.append("<p>Direction: " + direction + "</p>")
+    description_items.append("<p>Stop: " + data["title"] + "</p>")
     feature["properties"]["description"] = "\n".join(description_items)
     return feature
 
 counter2 = 0
 for i in tags:
-    route_url = ("http://webservices.nextbus.com/service/publicJSONFeed?command=routeConfig&a=jfk&r=l&terse")
+    route_url = ("http://webservices.nextbus.com/service/publicJSONFeed?command=routeConfig&a=jfk&r=" + i + "&terse")
     json_route = get_json_parsed(route_url)
     stops = json_route["route"]["stop"]
     print(json_route["route"]["direction"]["tag"])

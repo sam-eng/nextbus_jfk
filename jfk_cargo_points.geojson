@@ -6,13 +6,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.8297409,
-                    40.6611396
+                    -73.803333,
+                    40.661111
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Cargo Route\nDirection: loop\nStop: Howard Beach AirTrain Station"
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 00 Federal Circle &#8211; Cargo Service Road & Rental Car North</p>"
             }
         },
         {
@@ -20,13 +20,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.8264271,
-                    40.6586363
+                    -73.7915028,
+                    40.6550849
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Cargo Route\nDirection: loop\nStop: Long Term 1"
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 32 &#8211; 148th Street & South Cargo Road</p>"
             }
         },
         {
@@ -34,13 +34,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.8263099,
-                    40.6593042
+                    -73.7937231,
+                    40.6580587
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Cargo Route\nDirection: loop\nStop: Long Term 2"
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 34 &#8211; 148th Street & Center Cargo Road</p>"
             }
         },
         {
@@ -48,13 +48,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.826061,
-                    40.6605638
+                    -73.793723,
+                    40.6580582
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Cargo Route\nDirection: loop\nStop: Long Term 3"
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 34 &#8211; 148th Street & Center Cargo Road</p>"
             }
         },
         {
@@ -62,13 +62,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.825896,
-                    40.6613919
+                    -73.789836,
+                    40.6616209
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Cargo Route\nDirection: loop\nStop: Long Term 4"
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 37 &#8211; North Boundary Road & 150th Avenue</p>"
             }
         },
         {
@@ -76,13 +76,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.8258468,
-                    40.6616784
+                    -73.7901131,
+                    40.6616597
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Cargo Route\nDirection: loop\nStop: Long Term 4"
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 38 &#8211; West Boundary Road & 150th Avenue</p>"
             }
         },
         {
@@ -90,13 +90,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.827755,
-                    40.662571
+                    -73.7850049,
+                    40.663009
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Cargo Route\nDirection: loop\nStop: Long Term 6"
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 39 &#8211; North Boundary Road & Federal Express</p>"
             }
         },
         {
@@ -104,13 +104,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.8286068,
-                    40.6636359
+                    -73.7832558,
+                    40.6626489
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Cargo Route\nDirection: loop\nStop: Long Term 7"
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 40 &#8211; North Boundary Road & Federal Express</p>"
             }
         },
         {
@@ -118,13 +118,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.8305931,
-                    40.6634309
+                    -73.7788986,
+                    40.6605322
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Cargo Route\nDirection: loop\nStop: Long Term 8"
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 41 &#8211; North Boundary Road & North Hangar Road</p>"
             }
         },
         {
@@ -132,13 +132,181 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.830686,
-                    40.6624571
+                    -73.7785948,
+                    40.6606168
                 ]
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "Route: Cargo Route\nDirection: loop\nStop: Long Term 9"
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 42 &#8211; North Boundary Road & North Hangar Road</p>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.775291,
+                    40.659435
+                ]
+            },
+            "properties": {
+                "title": "Next Tracked Vehicles",
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 44 &#8211; North Boundary Road & Farmers Blvd</p>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.7741039,
+                    40.6585718
+                ]
+            },
+            "properties": {
+                "title": "Next Tracked Vehicles",
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 46 &#8211; North Boundary Road & Farmers Blvd</p>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.7716018,
+                    40.6572989
+                ]
+            },
+            "properties": {
+                "title": "Next Tracked Vehicles",
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 47 &#8211; North Boundary Road & Old Rockaway Blvd</p>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.7716081,
+                    40.6570681
+                ]
+            },
+            "properties": {
+                "title": "Next Tracked Vehicles",
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 48 &#8211; North Boundary Road & Old Rockaway Blvd</p>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.7663731,
+                    40.6530479
+                ]
+            },
+            "properties": {
+                "title": "Next Tracked Vehicles",
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 250  - Post Office North Boundary Road & Old Rockaway Blvd (Building 250)</p>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.7666713,
+                    40.6533215
+                ]
+            },
+            "properties": {
+                "title": "Next Tracked Vehicles",
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 49 &#8211; Eastern Road & Eastern Road (Building 250)</p>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.7950058,
+                    40.6528051
+                ]
+            },
+            "properties": {
+                "title": "Next Tracked Vehicles",
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 53 &#8211; South Cargo Road & Cargo Plaza Road</p>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.795325,
+                    40.6555622
+                ]
+            },
+            "properties": {
+                "title": "Next Tracked Vehicles",
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 55 &#8211; Cargo Plaza Road & Building 84</p>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.795277,
+                    40.658803
+                ]
+            },
+            "properties": {
+                "title": "Next Tracked Vehicles",
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 57 &#8211; Cargo Plaza Road & Center Cargo Road</p>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.795263,
+                    40.6611142
+                ]
+            },
+            "properties": {
+                "title": "Next Tracked Vehicles",
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 59 &#8211; Cargo Plaza Road & 150th Avenue</p>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.7929417,
+                    40.6610317
+                ]
+            },
+            "properties": {
+                "title": "Next Tracked Vehicles",
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 36 &#8211; 150th Avenue & 148th Street</p>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.766452,
+                    40.6512958
+                ]
+            },
+            "properties": {
+                "title": "Next Tracked Vehicles",
+                "description": "<p>Route: Cargo Route</p>\n<p>Direction: loop</p>\n<p>Stop: Bus Stop 77 &#8211; Eastern Road & Eastern Road (Building 77)</p>"
             }
         }
     ]
