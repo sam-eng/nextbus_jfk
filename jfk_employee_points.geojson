@@ -12,7 +12,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p>Route: Employee Lot </p>\n<p>Direction: loop</p>\n<p>Stop: Employee Lot 1</p>"
+                "description": "<p style=\"margin:0\">Route: Employee Lot </p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Employee Lot 1</p>"
             }
         },
         {
@@ -26,7 +26,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p>Route: Employee Lot </p>\n<p>Direction: loop</p>\n<p>Stop: Employee Lot 2</p>"
+                "description": "<p style=\"margin:0\">Route: Employee Lot </p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Employee Lot 2</p>"
             }
         },
         {
@@ -40,7 +40,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p>Route: Employee Lot </p>\n<p>Direction: loop</p>\n<p>Stop: Employee Lot 3</p>"
+                "description": "<p style=\"margin:0\">Route: Employee Lot </p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Employee Lot 3</p>"
             }
         },
         {
@@ -54,7 +54,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p>Route: Employee Lot </p>\n<p>Direction: loop</p>\n<p>Stop: Employee Lot 4</p>"
+                "description": "<p style=\"margin:0\">Route: Employee Lot </p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Employee Lot 4</p>"
             }
         },
         {
@@ -68,7 +68,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p>Route: Employee Lot </p>\n<p>Direction: loop</p>\n<p>Stop: Employee Lot 5</p>"
+                "description": "<p style=\"margin:0\">Route: Employee Lot </p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Employee Lot 5</p>"
             }
         }
     ]

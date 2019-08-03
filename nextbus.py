@@ -106,8 +106,8 @@ def stop_to_geojson(data, title, direction):
     #feature["properties"]["description"] = {}
     description_items = []
     description_items.append("<p style=\"margin:0\">Route: " + title + "</p>")
-    description_items.append("<p>Direction: " + direction + "</p>")
-    description_items.append("<p>Stop: " + data["title"] + "</p>")
+    description_items.append("<p style=\"margin:0\">Direction: " + direction + "</p>")
+    description_items.append("<p style=\"margin:0\">Stop: " + data["title"] + "</p>")
     feature["properties"]["description"] = "\n".join(description_items)
     return feature
 
