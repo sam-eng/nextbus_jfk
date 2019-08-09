@@ -110,6 +110,9 @@ def stop_to_geojson(data, pred_data, direction):
     #rint("prediction" in pred_data["predictions"]["direction"])
     if "direction" in pred_data["predictions"]:
         print(pred_data["predictions"]["direction"]["prediction"])
+        #fetch the minutes from each prediction
+        #put it into an array
+        #join array to create a string; add to the description_items array
     else:
         print("no predictions!")
     feature["properties"]["description"] = "\n".join(description_items)
