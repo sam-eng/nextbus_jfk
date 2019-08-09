@@ -93,7 +93,7 @@ for i in tags:
 # Stop: [Stop Name]
 # Departures [at first stop]/Arrivals [at other stops]: [Predictions]
 
-def stop_to_geojson(data, title, direction):
+def stop_to_geojson(data, pred_data, direction):
     feature = {}
     feature["type"] = "Feature"
     feature["geometry"] = {}
@@ -104,9 +104,14 @@ def stop_to_geojson(data, title, direction):
     feature["properties"]["title"] = "Next Tracked Vehicles"
     #feature["properties"]["description"] = {}
     description_items = []
-    description_items.append("<p style=\"margin:0\">Route: " + title + "</p>")
+    description_items.append("<p style=\"margin:0\">Route: " + pred_data["predictions"]["routeTitle"] + "</p>")
     description_items.append("<p style=\"margin:0\">Direction: " + direction + "</p>")
     description_items.append("<p style=\"margin:0\">Stop: " + data["title"] + "</p>")
+    #rint("prediction" in pred_data["predictions"]["direction"])
+    if "direction" in pred_data["predictions"]:
+        print(pred_data["predictions"]["direction"]["prediction"])
+    else:
+        print("no predictions!")
     feature["properties"]["description"] = "\n".join(description_items)
     return feature
 
@@ -120,11 +125,12 @@ for i in tags:
     stop_info["type"] = "FeatureCollection"
     features = []
     for j in stops:
-        features.append(stop_to_geojson(j,titles[counter2],json_route["route"]["direction"]["tag"]))
         stop_url = predictions_url + "&s=" + j["tag"]
         print(stop_url)
         json_stop = get_json_parsed(stop_url)
-        print(json_stop)
+        #print(j)
+        #print(json_stop["predictions"])
+        features.append(stop_to_geojson(j,json_stop,json_route["route"]["direction"]["tag"]))
     stop_info["features"] = features
     #rint(json.dumps(stop_info))
     if (i == "c"):

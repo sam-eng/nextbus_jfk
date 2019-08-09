@@ -8,3 +8,7 @@ The code written is currently written for JFK airport's bus routes specifically,
 * Replace "jfk" in the urls with the new agency tag you wish to use.
 * Alter the if-else statements for creating the geojson files. *Add* or *remove* if/elif statements to match the number of routes, altering the boolean comparison to match the agency's route tags.
 * Also, I suggest that you alter the names of the files being created by the program to reflect the name of the new agency and the new names of routes. I use the format [agency tag]_[route name].geojson, but use any naing convention you like.
+
+#To Do:
+* Find a way to represent a stop that is on multiple routes (i.e. JFK's Federal Circle stop is both on the Service Route and the Cargo Route)
+* Clean up code and document in comments (or somewhere else) how the JSON retrieved from NextBus' public JSON feed is structured
