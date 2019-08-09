@@ -2,8 +2,7 @@
 
 Takes information about JFK's bus routes and does the following:
 - Create geojson files of the bus routes
-
-
+- Create geojson files of bus stop locations and information
 '''
 
 import sys
