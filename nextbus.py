@@ -115,14 +115,18 @@ for i in tags:
     route_url = ("http://webservices.nextbus.com/service/publicJSONFeed?command=routeConfig&a=jfk&r=" + i + "&terse")
     json_route = get_json_parsed(route_url)
     stops = json_route["route"]["stop"]
-    print(json_route["route"]["direction"]["tag"])
+    predictions_url = ("http://webservices.nextbus.com/service/publicJSONFeed?command=predictions&a=jfk&r=" + i)
     stop_info = {}
     stop_info["type"] = "FeatureCollection"
     features = []
     for j in stops:
         features.append(stop_to_geojson(j,titles[counter2],json_route["route"]["direction"]["tag"]))
+        stop_url = predictions_url + "&s=" + j["tag"]
+        print(stop_url)
+        json_stop = get_json_parsed(stop_url)
+        print(json_stop)
     stop_info["features"] = features
-    print(json.dumps(stop_info))
+    #rint(json.dumps(stop_info))
     if (i == "c"):
         with open("jfk_cargo_points.geojson", "w", encoding="utf-8") as f:
             json.dump(stop_info, f, ensure_ascii=False, indent=4)
