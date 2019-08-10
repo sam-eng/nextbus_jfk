@@ -107,12 +107,22 @@ def stop_to_geojson(data, pred_data, direction):
     description_items.append("<p style=\"margin:0\">Route: " + pred_data["predictions"]["routeTitle"] + "</p>")
     description_items.append("<p style=\"margin:0\">Direction: " + direction + "</p>")
     description_items.append("<p style=\"margin:0\">Stop: " + data["title"] + "</p>")
-    #rint("prediction" in pred_data["predictions"]["direction"])
+    #print("prediction" in pred_data["predictions"]["direction"])
     if "direction" in pred_data["predictions"]:
         print(pred_data["predictions"]["direction"]["prediction"])
         #fetch the minutes from each prediction
         #put it into an array
         #join array to create a string; add to the description_items array
+        times = [] #list to hold the arrival/departure times of the next buses
+        
+        for prediction in pred_data["predictions"]["direction"]["prediction"]:
+            times.append(prediction["minutes"])
+        pred_times = "<p style=\"margin:0\">"
+        if (pred_data["predictions"]["direction"]["prediction"][0]["isDeparture"] == "true"):
+            pred_times = pred_times + "Departures: <strong>" + ", ".join(times)
+        else:
+            pred_times = pred_times + "Arrivals: <strong>" + ", ".join(times)
+        description_items.append(pred_times + " minutes </strong></p>")
     else:
         print("no predictions!")
     feature["properties"]["description"] = "\n".join(description_items)

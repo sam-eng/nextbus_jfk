@@ -12,7 +12,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 00 Federal Circle &#8211; Cargo Service Road & Rental Car North</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 00 Federal Circle &#8211; Cargo Service Road & Rental Car North</p>\n<p style=\"margin:0\">Departures: <strong>33, 75 minutes </strong></p>"
             }
         },
         {
@@ -26,7 +26,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 32 &#8211; 148th Street & South Cargo Road</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 32 &#8211; 148th Street & South Cargo Road</p>\n<p style=\"margin:0\">Arrivals: <strong>39, 81 minutes </strong></p>"
             }
         },
         {
@@ -40,7 +40,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 34 &#8211; 148th Street & Center Cargo Road</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 34 &#8211; 148th Street & Center Cargo Road</p>\n<p style=\"margin:0\">Arrivals: <strong>38, 80 minutes </strong></p>"
             }
         },
         {
@@ -54,7 +54,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 34 &#8211; 148th Street & Center Cargo Road</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 34 &#8211; 148th Street & Center Cargo Road</p>\n<p style=\"margin:0\">Arrivals: <strong>10, 54, 96 minutes </strong></p>"
             }
         },
         {
@@ -68,7 +68,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 37 &#8211; North Boundary Road & 150th Avenue</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 37 &#8211; North Boundary Road & 150th Avenue</p>\n<p style=\"margin:0\">Arrivals: <strong>41, 83 minutes </strong></p>"
             }
         },
         {
@@ -82,7 +82,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 38 &#8211; West Boundary Road & 150th Avenue</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 38 &#8211; West Boundary Road & 150th Avenue</p>\n<p style=\"margin:0\">Arrivals: <strong>9, 53, 95 minutes </strong></p>"
             }
         },
         {
@@ -96,7 +96,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 39 &#8211; North Boundary Road & Federal Express</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 39 &#8211; North Boundary Road & Federal Express</p>\n<p style=\"margin:0\">Arrivals: <strong>42, 84 minutes </strong></p>"
             }
         },
         {
@@ -110,7 +110,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 40 &#8211; North Boundary Road & Federal Express</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 40 &#8211; North Boundary Road & Federal Express</p>\n<p style=\"margin:0\">Arrivals: <strong>8, 52, 94 minutes </strong></p>"
             }
         },
         {
@@ -124,7 +124,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 41 &#8211; North Boundary Road & North Hangar Road</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 41 &#8211; North Boundary Road & North Hangar Road</p>\n<p style=\"margin:0\">Arrivals: <strong>43, 85 minutes </strong></p>"
             }
         },
         {
@@ -138,7 +138,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 42 &#8211; North Boundary Road & North Hangar Road</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 42 &#8211; North Boundary Road & North Hangar Road</p>\n<p style=\"margin:0\">Arrivals: <strong>7, 51, 93 minutes </strong></p>"
             }
         },
         {
@@ -152,7 +152,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 44 &#8211; North Boundary Road & Farmers Blvd</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 44 &#8211; North Boundary Road & Farmers Blvd</p>\n<p style=\"margin:0\">Arrivals: <strong>6, 50, 92 minutes </strong></p>"
             }
         },
         {
@@ -166,7 +166,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 46 &#8211; North Boundary Road & Farmers Blvd</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 46 &#8211; North Boundary Road & Farmers Blvd</p>\n<p style=\"margin:0\">Arrivals: <strong>0, 44, 86 minutes </strong></p>"
             }
         },
         {
@@ -180,7 +180,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 47 &#8211; North Boundary Road & Old Rockaway Blvd</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 47 &#8211; North Boundary Road & Old Rockaway Blvd</p>\n<p style=\"margin:0\">Arrivals: <strong>6, 50, 92 minutes </strong></p>"
             }
         },
         {
@@ -194,7 +194,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 48 &#8211; North Boundary Road & Old Rockaway Blvd</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 48 &#8211; North Boundary Road & Old Rockaway Blvd</p>\n<p style=\"margin:0\">Arrivals: <strong>1, 45, 87 minutes </strong></p>"
             }
         },
         {
@@ -208,7 +208,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 250  - Post Office North Boundary Road & Old Rockaway Blvd (Building 250)</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 250  - Post Office North Boundary Road & Old Rockaway Blvd (Building 250)</p>\n<p style=\"margin:0\">Arrivals: <strong>2, 46, 88 minutes </strong></p>"
             }
         },
         {
@@ -222,7 +222,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 49 &#8211; Eastern Road & Eastern Road (Building 250)</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 49 &#8211; Eastern Road & Eastern Road (Building 250)</p>\n<p style=\"margin:0\">Arrivals: <strong>4, 48, 90 minutes </strong></p>"
             }
         },
         {
@@ -236,7 +236,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 53 &#8211; South Cargo Road & Cargo Plaza Road</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 53 &#8211; South Cargo Road & Cargo Plaza Road</p>\n<p style=\"margin:0\">Arrivals: <strong>12, 56, 98 minutes </strong></p>"
             }
         },
         {
@@ -250,7 +250,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 55 &#8211; Cargo Plaza Road & Building 84</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 55 &#8211; Cargo Plaza Road & Building 84</p>\n<p style=\"margin:0\">Arrivals: <strong>13, 57 minutes </strong></p>"
             }
         },
         {
@@ -264,7 +264,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 57 &#8211; Cargo Plaza Road & Center Cargo Road</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 57 &#8211; Cargo Plaza Road & Center Cargo Road</p>\n<p style=\"margin:0\">Arrivals: <strong>13, 57 minutes </strong></p>"
             }
         },
         {
@@ -278,7 +278,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 59 &#8211; Cargo Plaza Road & 150th Avenue</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 59 &#8211; Cargo Plaza Road & 150th Avenue</p>\n<p style=\"margin:0\">Arrivals: <strong>14, 58 minutes </strong></p>"
             }
         },
         {
@@ -292,7 +292,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 36 &#8211; 150th Avenue & 148th Street</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 36 &#8211; 150th Avenue & 148th Street</p>\n<p style=\"margin:0\">Arrivals: <strong>10, 54, 96 minutes </strong></p>"
             }
         },
         {
@@ -306,7 +306,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 77 &#8211; Eastern Road & Eastern Road (Building 77)</p>"
+                "description": "<p style=\"margin:0\">Route: Cargo Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 77 &#8211; Eastern Road & Eastern Road (Building 77)</p>\n<p style=\"margin:0\">Arrivals: <strong>3, 47, 89 minutes </strong></p>"
             }
         }
     ]
