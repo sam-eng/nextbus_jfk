@@ -13,7 +13,7 @@ def get_json_parsed(url):
     data = json.loads(response.read())
     return data
 
-#convert json data to geojson
+#Convert list of coordinates in JSON to a GeoJSON LineString.
 def coords_to_geojson(data, title):
     feature = {}
     feature["type"] = "Feature"
@@ -30,9 +30,6 @@ def coords_to_geojson(data, title):
     feature["properties"]["title"] = title
     feature["properties"]["stroke"] = "#FF0000"
     return feature
-
-locations = ("http://webservices.nextbus.com/service/publicJSONFeed?command=vehicleLocations&a=jfk&r=p6&t=0")
-json_locations = get_json_parsed(locations)
 
 routes = ("http://webservices.nextbus.com/service/publicJSONFeed?command=routeList&a=jfk")
 json_routes = get_json_parsed(routes)
@@ -139,13 +136,9 @@ for i in tags:
     features = []
     for j in stops:
         stop_url = predictions_url + "&s=" + j["tag"]
-        print(stop_url)
         json_stop = get_json_parsed(stop_url)
-        #print(j)
-        #print(json_stop["predictions"])
         features.append(stop_to_geojson(j,json_stop,json_route["route"]["direction"]["tag"]))
     stop_info["features"] = features
-    #rint(json.dumps(stop_info))
     if (i == "c"):
         with open("jfk_cargo_points.geojson", "w", encoding="utf-8") as f:
             json.dump(stop_info, f, ensure_ascii=False, indent=4)
@@ -162,5 +155,3 @@ for i in tags:
         with open("jfk_misc_points.geojson", "w", encoding="utf-8") as f:
             json.dump(stop_info, f, ensure_ascii=False, indent=4)
     counter2 += 1
-
-#to do: find way to display description information on multiple lines (realized as a div, so wrap each in style tags?)
