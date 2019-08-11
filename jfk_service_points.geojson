@@ -12,7 +12,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 00 Federal Circle &#8211; Cargo Service Road & Rental Car North</p>"
+                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 00 Federal Circle &#8211; Cargo Service Road & Rental Car North</p>\n<p style=\"margin:0\">Departures: <strong>6, 30, 54, 78 minutes </strong></p>"
             }
         },
         {
@@ -26,7 +26,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 11 - North Van Wyck Service Road & Building 23</p>"
+                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 11 - North Van Wyck Service Road & Building 23</p>\n<p style=\"margin:0\">Arrivals: <strong>13, 37, 61, 85 minutes </strong></p>"
             }
         },
         {
@@ -40,7 +40,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 13 - North Van Wyck Service Road & Building 21</p>"
+                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 13 - North Van Wyck Service Road & Building 21</p>\n<p style=\"margin:0\">Arrivals: <strong>14, 38, 62, 86 minutes </strong></p>"
             }
         },
         {
@@ -54,7 +54,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 14 - South Van Wyck Service Road & Building 14</p>"
+                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 14 - South Van Wyck Service Road & Building 14</p>\n<p style=\"margin:0\">Arrivals: <strong>10, 34, 58, 82 minutes </strong></p>"
             }
         },
         {
@@ -68,7 +68,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 15 - North Van Wyck Service Road & Building 120</p>"
+                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 15 - North Van Wyck Service Road & Building 120</p>\n<p style=\"margin:0\">Arrivals: <strong>14, 38, 62, 86 minutes </strong></p>"
             }
         },
         {
@@ -82,7 +82,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 17 - North Van Wyck Service Road & American Freight</p>"
+                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 17 - North Van Wyck Service Road & American Freight</p>\n<p style=\"margin:0\">Arrivals: <strong>15, 39, 63, 87 minutes </strong></p>"
             }
         },
         {
@@ -96,7 +96,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 18 - 130th Place & East Hangar Road</p>"
+                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 18 - 130th Place & East Hangar Road</p>\n<p style=\"margin:0\">Arrivals: <strong>9, 33, 57, 81 minutes </strong></p>"
             }
         },
         {
@@ -110,7 +110,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 19 - South Van Wyck Service Road & Building 23</p>"
+                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 19 - South Van Wyck Service Road & Building 23</p>\n<p style=\"margin:0\">Arrivals: <strong>11, 35, 59, 83 minutes </strong></p>"
             }
         },
         {
@@ -124,7 +124,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 20a -130th Place & West Hangar Road</p>"
+                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 20a -130th Place & West Hangar Road</p>\n<p style=\"margin:0\">Arrivals: <strong>9, 33, 57, 81 minutes </strong></p>"
             }
         },
         {
@@ -138,7 +138,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 21 - South Van Wyck Service Road & Building 90</p>"
+                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 21 - South Van Wyck Service Road & Building 90</p>\n<p style=\"margin:0\">Arrivals: <strong>11, 35, 59, 83 minutes </strong></p>"
             }
         },
         {
@@ -152,7 +152,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 22 - 130th Place & Bergen Road</p>"
+                "description": "<p style=\"margin:0\">Route: Service Road Route</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Bus Stop 22 - 130th Place & Bergen Road</p>\n<p style=\"margin:0\">Arrivals: <strong>8, 32, 56, 80 minutes </strong></p>"
             }
         }
     ]

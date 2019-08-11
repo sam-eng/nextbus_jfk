@@ -12,7 +12,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Howard Beach AirTrain Station</p>"
+                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Howard Beach AirTrain Station</p>\n<p style=\"margin:0\"><strong>No Current Predictions</strong></p>"
             }
         },
         {
@@ -26,7 +26,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 1</p>"
+                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 1</p>\n<p style=\"margin:0\"><strong>No Current Predictions</strong></p>"
             }
         },
         {
@@ -40,7 +40,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 2</p>"
+                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 2</p>\n<p style=\"margin:0\"><strong>No Current Predictions</strong></p>"
             }
         },
         {
@@ -54,7 +54,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 3</p>"
+                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 3</p>\n<p style=\"margin:0\"><strong>No Current Predictions</strong></p>"
             }
         },
         {
@@ -68,7 +68,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 4</p>"
+                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 4</p>\n<p style=\"margin:0\"><strong>No Current Predictions</strong></p>"
             }
         },
         {
@@ -82,7 +82,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 4</p>"
+                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 4</p>\n<p style=\"margin:0\"><strong>No Current Predictions</strong></p>"
             }
         },
         {
@@ -96,7 +96,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 6</p>"
+                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 6</p>\n<p style=\"margin:0\"><strong>No Current Predictions</strong></p>"
             }
         },
         {
@@ -110,7 +110,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 7</p>"
+                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 7</p>\n<p style=\"margin:0\"><strong>No Current Predictions</strong></p>"
             }
         },
         {
@@ -124,7 +124,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 8</p>"
+                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 8</p>\n<p style=\"margin:0\"><strong>No Current Predictions</strong></p>"
             }
         },
         {
@@ -138,7 +138,7 @@
             },
             "properties": {
                 "title": "Next Tracked Vehicles",
-                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 9</p>"
+                "description": "<p style=\"margin:0\">Route: Long Term Parking Lot</p>\n<p style=\"margin:0\">Direction: loop</p>\n<p style=\"margin:0\">Stop: Long Term 9</p>\n<p style=\"margin:0\"><strong>No Current Predictions</strong></p>"
             }
         }
     ]

@@ -21,48 +21,44 @@ def coords_to_geojson(data, title):
     feature["geometry"]["type"] = "LineString"
     coordinates = []
     for pair in data:
-        add = [] 
-        add.append(float(pair["lon"]))
-        add.append(float(pair["lat"]))
-        coordinates.append(add)
+        toAdd = [] 
+        toAdd.append(float(pair["lon"]))
+        toAdd.append(float(pair["lat"]))
+        coordinates.append(toAdd)
     feature["geometry"]["coordinates"] = coordinates
     feature["properties"] = {}
     feature["properties"]["title"] = title
     feature["properties"]["stroke"] = "#FF0000"
     return feature
 
-def stop_to_geojson(data, pred_data, direction):
+# Convert stop-specific information to GeoJSON Points with a description.
+# Need to include two different sets of JSON data because stop_data contains coordinates and pred_data has prediction information.
+def stop_to_geojson(stop_data, pred_data, direction):
     feature = {}
     feature["type"] = "Feature"
     feature["geometry"] = {}
     feature["geometry"]["type"] = "Point"
-    coords = [float(data["lon"]), float(data["lat"])]
+    coords = [float(stop_data["lon"]), float(stop_data["lat"])]
     feature["geometry"]["coordinates"] = coords
     feature["properties"] = {}
     feature["properties"]["title"] = "Next Tracked Vehicles"
-    #feature["properties"]["description"] = {}
     description_items = []
+    # Include any HTML/CSS desired to style the description box's contents.
     description_items.append("<p style=\"margin:0\">Route: " + pred_data["predictions"]["routeTitle"] + "</p>")
     description_items.append("<p style=\"margin:0\">Direction: " + direction + "</p>")
-    description_items.append("<p style=\"margin:0\">Stop: " + data["title"] + "</p>")
-    #print("prediction" in pred_data["predictions"]["direction"])
-    if "direction" in pred_data["predictions"]:
-        print(pred_data["predictions"]["direction"]["prediction"])
-        #fetch the minutes from each prediction
-        #put it into an array
-        #join array to create a string; add to the description_items array
-        times = [] #list to hold the arrival/departure times of the next buses
-        
+    description_items.append("<p style=\"margin:0\">Stop: " + stop_data["title"] + "</p>")
+    if "direction" in pred_data["predictions"]:     # If the direction object exists, there are predictions. Else there are none.
+        times = []      #List to hold the arrival and departure times of the next buses.
         for prediction in pred_data["predictions"]["direction"]["prediction"]:
             times.append(prediction["minutes"])
-        pred_times = "<p style=\"margin:0\">"
+        pred_times = "<p style=\"margin:0\">"      # Initialize the string we will add to description_items
         if (pred_data["predictions"]["direction"]["prediction"][0]["isDeparture"] == "true"):
             pred_times = pred_times + "Departures: <strong>" + ", ".join(times)
         else:
             pred_times = pred_times + "Arrivals: <strong>" + ", ".join(times)
         description_items.append(pred_times + " minutes </strong></p>")
     else:
-        print("no predictions!")
+        description_items.append("<p style=\"margin:0\"><strong>No Current Predictions</strong></p>")
     feature["properties"]["description"] = "\n".join(description_items)
     return feature
 
