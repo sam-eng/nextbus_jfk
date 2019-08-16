@@ -3,13 +3,14 @@
 Takes information about JFK's bus routes and does the following:
 - Create geojson files of the bus routes
 - Create geojson files of bus stop locations and information about next arrival departure
+- Write geojson file information to Azure site so information on txlink can be updated
 '''
 
 import sys
-import urllib.request, json
+import urllib, json
 
 def get_json_parsed(url):
-    response = urllib.request.urlopen(url)
+    response = urllib.urlopen(url)
     data = json.loads(response.read())
     return data
 
@@ -72,70 +73,70 @@ def main():
         if (i == "title"):
             titles.append(i)
             tags.append(json_routes["route"]["tag"])
-            print(i)
             break
         else:
-            print(i["tag"])
             titles.append(i["title"])
             tags.append(i["tag"])
-    #create geojson files of each bus route listed on NextBus
-    counter = 0
-    for i in tags:
-        route_url = ("http://webservices.nextbus.com/service/publicJSONFeed?command=routeConfig&a=jfk&r=" + i)
+    title_counter = 0
+    for tag in tags:
+        route_url = ("http://webservices.nextbus.com/service/publicJSONFeed?command=routeConfig&a=jfk&r=" + tag)
         json_route = get_json_parsed(route_url)
         points = json_route["route"]["path"]
         path = {}
         path["type"] = "FeatureCollection"
-        features = []
+        path_features = []
         for j in points:
-            features.append(coords_to_geojson(j["point"], titles[counter]))
-        path["features"] = features
-        if (i == "c"):
-            with open("jfk_cargo.geojson", "w", encoding="utf-8") as f:
+            path_features.append(coords_to_geojson(j["point"], titles[title_counter]))
+        path["features"] = path_features
+        print(tag)
+        if (tag == "c"):
+            #url for writing to azure: D:\\home\\site\\wwwroot\\NextBus\\jfk_cargo.geojson
+            with open("jfk_cargo.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
-        elif (i == "s"):
-            with open("jfk_service.geojson", "w", encoding="utf-8") as f:
+        elif (tag == "s"):
+            with open("jfk_service.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
-        elif (i == "e"):
-            with open("jfk_employee.geojson", "w", encoding="utf-8") as f:
+        elif (tag == "e"):
+            with open("jfk_employee.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
-        elif (i == "l"):
-            with open("jfk_longterm.geojson", "w", encoding="utf-8") as f:
+        elif (tag == "l"):
+            with open("fk_longterm.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
         else:
-            with open("jfk_misc.geojson", "w", encoding="utf-8") as f:
+            with open("jfk_misc.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
-        counter += 1
-    counter2 = 0
-    for i in tags:
-        route_url = ("http://webservices.nextbus.com/service/publicJSONFeed?command=routeConfig&a=jfk&r=" + i + "&terse")
-        json_route = get_json_parsed(route_url)
         stops = json_route["route"]["stop"]
-        predictions_url = ("http://webservices.nextbus.com/service/publicJSONFeed?command=predictions&a=jfk&r=" + i)
+        predictions_url = ("http://webservices.nextbus.com/service/publicJSONFeed?command=predictions&a=jfk&r=" + tag)
         stop_info = {}
         stop_info["type"] = "FeatureCollection"
-        features = []
+        stop_features = []
         for j in stops:
             stop_url = predictions_url + "&s=" + j["tag"]
             json_stop = get_json_parsed(stop_url)
-            features.append(stop_to_geojson(j,json_stop,json_route["route"]["direction"]["tag"]))
-        stop_info["features"] = features
-        if (i == "c"):
-            with open("jfk_cargo_points.geojson", "w", encoding="utf-8") as f:
+            stop_features.append(stop_to_geojson(j,json_stop,json_route["route"]["direction"]["tag"]))
+        stop_info["features"] = stop_features
+        if (tag == "c"):
+            print("cargo")
+            #url for writing to azure: D:\\home\\site\\wwwroot\\NextBus\\jfk_cargo_points.geojson
+            with open("jfk_cargo_points.geojson", "w") as f:
                 json.dump(stop_info, f, ensure_ascii=False, indent=4)
-        elif (i == "s"):
-            with open("jfk_service_points.geojson", "w", encoding="utf-8") as f:
+        elif (tag == "s"):
+            print("service")
+            with open("jfk_service_points.geojson", "w") as f:
                 json.dump(stop_info, f, ensure_ascii=False, indent=4)
-        elif (i == "e"):
-            with open("jfk_employee_points.geojson", "w", encoding="utf-8") as f:
+        elif (tag == "e"):
+            print("employee")
+            with open("jfk_employee_points.geojson", "w") as f:
                 json.dump(stop_info, f, ensure_ascii=False, indent=4)
-        elif (i == "l"):
-            with open("jfk_longterm_points.geojson", "w", encoding="utf-8") as f:
+        elif (tag == "l"):
+            print("long term")
+            with open("jfk_longterm_points.geojson", "w") as f:
                 json.dump(stop_info, f, ensure_ascii=False, indent=4)
         else:
-            with open("jfk_misc_points.geojson", "w", encoding="utf-8") as f:
+            print("misc")
+            with open("jfk_misc_points.geojson", "w") as f:
                 json.dump(stop_info, f, ensure_ascii=False, indent=4)
-        counter2 += 1
+        title_counter += 1
 
 if __name__== "__main__":
     main()
