@@ -1,9 +1,9 @@
 '''nextbus.py
 
 Takes information about JFK's bus routes and does the following:
-- Create geojson files of the bus routes
-- Create geojson files of bus stop locations and information about next arrival departure
-- Write geojson file information to Azure site so information on txlink can be updated
+- Create XML files of the bus routes
+- Create XML files of bus stop locations and information about next arrival departure
+- Write XML file information to Azure site so information on txlink can be updated
 '''
 
 import sys
@@ -34,15 +34,10 @@ def coords_to_geojson(data, title):
 
 # Convert stop-specific information to GeoJSON Points with a description.
 # Need to include two different sets of JSON data because stop_data contains coordinates and pred_data has prediction information.
-def stop_to_geojson(stop_data, pred_data, direction):
-    feature = {}
-    feature["type"] = "Feature"
-    feature["geometry"] = {}
-    feature["geometry"]["type"] = "Point"
-    coords = [float(stop_data["lon"]), float(stop_data["lat"])]
-    feature["geometry"]["coordinates"] = coords
-    feature["properties"] = {}
-    feature["properties"]["title"] = "Next Tracked Vehicles"
+def stop_to_xml(stop_data, pred_data, direction):
+    lat = "<geo:lat>" + stop_data["lat"] + "</geo:lat>"
+    lon = "<geo:long>" + stop_data["lon"] + "</geo:long>"
+    title = "<title>Next Tracked Vehicles</title>"
     description_items = []
     # Include any HTML/CSS desired to style the description box's contents.
     description_items.append("<p style=\"margin:0\">Route: " + pred_data["predictions"]["routeTitle"] + "</p>")
@@ -60,8 +55,9 @@ def stop_to_geojson(stop_data, pred_data, direction):
         description_items.append(pred_times + " minutes </strong></p>")
     else:
         description_items.append("<p style=\"margin:0\"><strong>No Current Predictions</strong></p>")
-    feature["properties"]["description"] = "\n".join(description_items)
-    return feature
+    description = "<desciption>" + "\n\t\t\t\t".join(description_items) + "\n\t\t\t</description>"
+    item = "<item>\n\t\t\t" + title + "\n\t\t\t" + description + "\n\t\t\t" + lat + "\n\t\t\t" + lon + "\n\t\t</item>"
+    return item
 
 def main():
     routes = ("http://webservices.nextbus.com/service/publicJSONFeed?command=routeList&a=jfk")
@@ -100,42 +96,42 @@ def main():
             with open("jfk_employee.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
         elif (tag == "l"):
-            with open("fk_longterm.geojson", "w") as f:
+            with open("jfk_longterm.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
         else:
             with open("jfk_misc.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
         stops = json_route["route"]["stop"]
         predictions_url = ("http://webservices.nextbus.com/service/publicJSONFeed?command=predictions&a=jfk&r=" + tag)
-        stop_info = {}
-        stop_info["type"] = "FeatureCollection"
-        stop_features = []
+        stop_info = []
         for j in stops:
             stop_url = predictions_url + "&s=" + j["tag"]
             json_stop = get_json_parsed(stop_url)
-            stop_features.append(stop_to_geojson(j,json_stop,json_route["route"]["direction"]["tag"]))
-        stop_info["features"] = stop_features
+            stop_info.append(stop_to_xml(j,json_stop,json_route["route"]["direction"]["tag"]))
+        xml_header = "<rss version=\"2.0\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\">\n\t<channel>\n\t\t"
+        xml_content = "<title></title>\n\t\t<link />\n\t\t<description />\n\t\t"
+        xml_footer = "\n\t</channel>\n<rss>"
         if (tag == "c"):
             print("cargo")
             #url for writing to azure: D:\\home\\site\\wwwroot\\NextBus\\jfk_cargo_points.geojson
-            with open("jfk_cargo_points.geojson", "w") as f:
-                json.dump(stop_info, f, ensure_ascii=False, indent=4)
+            with open("jfk_cargo_points.xml", "w+") as f:
+                f.write(xml_header + xml_content + "\n\t\t".join(stop_info) + xml_footer)
         elif (tag == "s"):
             print("service")
-            with open("jfk_service_points.geojson", "w") as f:
-                json.dump(stop_info, f, ensure_ascii=False, indent=4)
+            with open("jfk_service_points.xml", "w+") as f:
+                f.write(xml_header + xml_content + "\n\t\t".join(stop_info) + xml_footer)
         elif (tag == "e"):
             print("employee")
-            with open("jfk_employee_points.geojson", "w") as f:
-                json.dump(stop_info, f, ensure_ascii=False, indent=4)
+            with open("jfk_employee_points.xml", "w+") as f:
+                f.write(xml_header + xml_content + "\n\t\t".join(stop_info) + xml_footer)
         elif (tag == "l"):
             print("long term")
-            with open("jfk_longterm_points.geojson", "w") as f:
-                json.dump(stop_info, f, ensure_ascii=False, indent=4)
+            with open("jfk_longterm_points.xml", "w+") as f:
+                f.write(xml_header + xml_content + "\n\t\t".join(stop_info) + xml_footer)
         else:
             print("misc")
-            with open("jfk_misc_points.geojson", "w") as f:
-                json.dump(stop_info, f, ensure_ascii=False, indent=4)
+            with open("jfk_misc_points.xml", "w+") as f:
+                f.write(xml_header + xml_content + "\n\t\t".join(stop_info) + xml_footer)
         title_counter += 1
 
 if __name__== "__main__":
