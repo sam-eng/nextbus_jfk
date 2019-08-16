@@ -55,7 +55,7 @@ def stop_to_xml(stop_data, pred_data, direction):
         description_items.append(pred_times + " minutes </strong></p>")
     else:
         description_items.append("<p style=\"margin:0\"><strong>No Current Predictions</strong></p>")
-    description = "<desciption>" + "\n\t\t\t\t".join(description_items) + "\n\t\t\t</description>"
+    description = "<description>" + "\n\t\t\t\t".join(description_items) + "\n\t\t\t</description>"
     item = "<item>\n\t\t\t" + title + "\n\t\t\t" + description + "\n\t\t\t" + lat + "\n\t\t\t" + lon + "\n\t\t</item>"
     return item
 
@@ -87,19 +87,19 @@ def main():
         print(tag)
         if (tag == "c"):
             #url for writing to azure: D:\\home\\site\\wwwroot\\NextBus\\jfk_cargo.geojson
-            with open("jfk_cargo.geojson", "w") as f:
+            with open("D:\\home\\site\\wwwroot\\NextBus\\jfk_cargo.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
         elif (tag == "s"):
-            with open("jfk_service.geojson", "w") as f:
+            with open("D:\\home\\site\\wwwroot\\NextBus\\jfk_service.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
         elif (tag == "e"):
-            with open("jfk_employee.geojson", "w") as f:
+            with open("D:\\home\\site\\wwwroot\\NextBus\\jfk_employee.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
         elif (tag == "l"):
-            with open("jfk_longterm.geojson", "w") as f:
+            with open("D:\\home\\site\\wwwroot\\NextBus\\jfk_longterm.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
         else:
-            with open("jfk_misc.geojson", "w") as f:
+            with open("D:\\home\\site\\wwwroot\\NextBus\\jfk_misc.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
         stops = json_route["route"]["stop"]
         predictions_url = ("http://webservices.nextbus.com/service/publicJSONFeed?command=predictions&a=jfk&r=" + tag)
@@ -110,27 +110,27 @@ def main():
             stop_info.append(stop_to_xml(j,json_stop,json_route["route"]["direction"]["tag"]))
         xml_header = "<rss version=\"2.0\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\">\n\t<channel>\n\t\t"
         xml_content = "<title></title>\n\t\t<link />\n\t\t<description />\n\t\t"
-        xml_footer = "\n\t</channel>\n<rss>"
+        xml_footer = "\n\t</channel>\n</rss>"
         if (tag == "c"):
             print("cargo")
-            #url for writing to azure: D:\\home\\site\\wwwroot\\NextBus\\jfk_cargo_points.geojson
-            with open("jfk_cargo_points.xml", "w+") as f:
+            #url for writing to azure: D:\\home\\site\\wwwroot\\NextBus\\jfk_cargo_points.xml
+            with open("D:\\home\\site\\wwwroot\\NextBus\\jfk_cargo_points.xml", "w+") as f:
                 f.write(xml_header + xml_content + "\n\t\t".join(stop_info) + xml_footer)
         elif (tag == "s"):
             print("service")
-            with open("jfk_service_points.xml", "w+") as f:
+            with open("D:\\home\\site\\wwwroot\\NextBus\\jfk_service_points.xml", "w+") as f:
                 f.write(xml_header + xml_content + "\n\t\t".join(stop_info) + xml_footer)
         elif (tag == "e"):
             print("employee")
-            with open("jfk_employee_points.xml", "w+") as f:
+            with open("D:\\home\\site\\wwwroot\\NextBus\\jfk_employee_points.xml", "w+") as f:
                 f.write(xml_header + xml_content + "\n\t\t".join(stop_info) + xml_footer)
         elif (tag == "l"):
             print("long term")
-            with open("jfk_longterm_points.xml", "w+") as f:
+            with open("D:\\home\\site\\wwwroot\\NextBus\\jfk_longterm_points.xml", "w+") as f:
                 f.write(xml_header + xml_content + "\n\t\t".join(stop_info) + xml_footer)
         else:
             print("misc")
-            with open("jfk_misc_points.xml", "w+") as f:
+            with open("D:\\home\\site\\wwwroot\\NextBus\\jfk_misc_points.xml", "w+") as f:
                 f.write(xml_header + xml_content + "\n\t\t".join(stop_info) + xml_footer)
         title_counter += 1
 

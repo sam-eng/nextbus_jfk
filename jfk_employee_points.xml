@@ -5,7 +5,7 @@
 		<description />
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Employee Lot </p>
+			<description><p style="margin:0">Route: Employee Lot </p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Employee Lot 1</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -15,7 +15,7 @@
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Employee Lot </p>
+			<description><p style="margin:0">Route: Employee Lot </p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Employee Lot 2</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -25,7 +25,7 @@
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Employee Lot </p>
+			<description><p style="margin:0">Route: Employee Lot </p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Employee Lot 3</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -35,7 +35,7 @@
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Employee Lot </p>
+			<description><p style="margin:0">Route: Employee Lot </p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Employee Lot 4</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -45,7 +45,7 @@
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Employee Lot </p>
+			<description><p style="margin:0">Route: Employee Lot </p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Employee Lot 5</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -54,4 +54,4 @@
 			<geo:long>-73.8231767</geo:long>
 		</item>
 	</channel>
-<rss>
+</rss>

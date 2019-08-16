@@ -5,7 +5,7 @@
 		<description />
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Service Road Route</p>
+			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Bus Stop 00 Federal Circle &#8211; Cargo Service Road & Rental Car North</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -15,7 +15,7 @@
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Service Road Route</p>
+			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Bus Stop 11 - North Van Wyck Service Road & Building 23</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -25,7 +25,7 @@
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Service Road Route</p>
+			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Bus Stop 13 - North Van Wyck Service Road & Building 21</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -35,7 +35,7 @@
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Service Road Route</p>
+			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Bus Stop 14 - South Van Wyck Service Road & Building 14</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -45,7 +45,7 @@
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Service Road Route</p>
+			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Bus Stop 15 - North Van Wyck Service Road & Building 120</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -55,7 +55,7 @@
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Service Road Route</p>
+			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Bus Stop 17 - North Van Wyck Service Road & American Freight</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -65,7 +65,7 @@
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Service Road Route</p>
+			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Bus Stop 18 - 130th Place & East Hangar Road</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -75,7 +75,7 @@
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Service Road Route</p>
+			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Bus Stop 19 - South Van Wyck Service Road & Building 23</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -85,7 +85,7 @@
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Service Road Route</p>
+			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Bus Stop 20a -130th Place & West Hangar Road</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -95,7 +95,7 @@
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Service Road Route</p>
+			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Bus Stop 21 - South Van Wyck Service Road & Building 90</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -105,7 +105,7 @@
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<desciption><p style="margin:0">Route: Service Road Route</p>
+			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Bus Stop 22 - 130th Place & Bergen Road</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
@@ -114,4 +114,4 @@
 			<geo:long>-73.8108479</geo:long>
 		</item>
 	</channel>
-<rss>
+</rss>
