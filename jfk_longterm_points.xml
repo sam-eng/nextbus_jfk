@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
 	<channel>
 		<title></title>
@@ -8,7 +9,7 @@
 			<description><p style="margin:0">Route: Long Term Parking Lot</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Howard Beach AirTrain Station</p>
-				<p style="margin:0">Departures: <strong>6, 18, 29, 42, 58 minutes </strong></p>
+				<p style="margin:0">Departures: <strong>5, 16, 26, 37, 47 minutes </strong></p>
 			</description>
 			<geo:lat>40.6611396</geo:lat>
 			<geo:long>-73.8297409</geo:long>
@@ -18,7 +19,7 @@
 			<description><p style="margin:0">Route: Long Term Parking Lot</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Long Term 1</p>
-				<p style="margin:0">Arrivals: <strong>12, 23, 33, 47, 63 minutes </strong></p>
+				<p style="margin:0">Arrivals: <strong>0, 10, 21, 31, 42 minutes </strong></p>
 			</description>
 			<geo:lat>40.6586363</geo:lat>
 			<geo:long>-73.8264271</geo:long>
@@ -28,7 +29,7 @@
 			<description><p style="margin:0">Route: Long Term Parking Lot</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Long Term 2</p>
-				<p style="margin:0">Arrivals: <strong>0, 13, 23, 34, 47 minutes </strong></p>
+				<p style="margin:0">Arrivals: <strong>0, 10, 21, 31, 42 minutes </strong></p>
 			</description>
 			<geo:lat>40.6593042</geo:lat>
 			<geo:long>-73.8263099</geo:long>
@@ -38,7 +39,7 @@
 			<description><p style="margin:0">Route: Long Term Parking Lot</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Long Term 3</p>
-				<p style="margin:0">Arrivals: <strong>0, 13, 23, 34, 47 minutes </strong></p>
+				<p style="margin:0">Arrivals: <strong>0, 11, 21, 32, 42 minutes </strong></p>
 			</description>
 			<geo:lat>40.6605638</geo:lat>
 			<geo:long>-73.826061</geo:long>
@@ -48,7 +49,7 @@
 			<description><p style="margin:0">Route: Long Term Parking Lot</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Long Term 4</p>
-				<p style="margin:0">Arrivals: <strong>1, 14, 24, 35, 48 minutes </strong></p>
+				<p style="margin:0">Arrivals: <strong>1, 11, 22, 32, 43 minutes </strong></p>
 			</description>
 			<geo:lat>40.6613919</geo:lat>
 			<geo:long>-73.825896</geo:long>
@@ -58,7 +59,7 @@
 			<description><p style="margin:0">Route: Long Term Parking Lot</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Long Term 4</p>
-				<p style="margin:0">Arrivals: <strong>1, 14, 24, 35, 48 minutes </strong></p>
+				<p style="margin:0">Arrivals: <strong>1, 11, 22, 32, 43 minutes </strong></p>
 			</description>
 			<geo:lat>40.6616784</geo:lat>
 			<geo:long>-73.8258468</geo:long>
@@ -68,7 +69,7 @@
 			<description><p style="margin:0">Route: Long Term Parking Lot</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Long Term 6</p>
-				<p style="margin:0">Arrivals: <strong>2, 15, 26, 36, 49 minutes </strong></p>
+				<p style="margin:0">Arrivals: <strong>2, 13, 23, 34, 44 minutes </strong></p>
 			</description>
 			<geo:lat>40.662571</geo:lat>
 			<geo:long>-73.827755</geo:long>
@@ -78,7 +79,7 @@
 			<description><p style="margin:0">Route: Long Term Parking Lot</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Long Term 7</p>
-				<p style="margin:0">Arrivals: <strong>3, 16, 26, 37, 50 minutes </strong></p>
+				<p style="margin:0">Arrivals: <strong>3, 13, 24, 34, 45 minutes </strong></p>
 			</description>
 			<geo:lat>40.6636359</geo:lat>
 			<geo:long>-73.8286068</geo:long>
@@ -88,7 +89,7 @@
 			<description><p style="margin:0">Route: Long Term Parking Lot</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Long Term 8</p>
-				<p style="margin:0">Arrivals: <strong>4, 16, 27, 37, 51 minutes </strong></p>
+				<p style="margin:0">Arrivals: <strong>3, 14, 24, 35, 45 minutes </strong></p>
 			</description>
 			<geo:lat>40.6634309</geo:lat>
 			<geo:long>-73.8305931</geo:long>
@@ -98,7 +99,7 @@
 			<description><p style="margin:0">Route: Long Term Parking Lot</p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Long Term 9</p>
-				<p style="margin:0">Arrivals: <strong>4, 17, 27, 38, 51 minutes </strong></p>
+				<p style="margin:0">Arrivals: <strong>4, 14, 25, 35, 46 minutes </strong></p>
 			</description>
 			<geo:lat>40.6624571</geo:lat>
 			<geo:long>-73.830686</geo:long>

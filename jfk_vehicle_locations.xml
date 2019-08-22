@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+	<channel>
+		<title></title>
+		<link />
+		<description />
+		<item>
+			<title>804</title>
+			<description>Cargo Route</description>
+			<geo:lat>40.6551</geo:lat>
+			<geo:long>-73.795377</geo:long>
+		</item>
+		<item>
+			<title>802</title>
+			<description>Long Term Parking Lot</description>
+			<geo:lat>40.658239</geo:lat>
+			<geo:long>-73.810384</geo:long>
+		</item>
+	</channel>
+</rss>

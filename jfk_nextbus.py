@@ -8,6 +8,7 @@ Takes information about JFK's bus routes and does the following:
 
 import sys
 import urllib, json
+import string
 
 def get_json_parsed(url):
     response = urllib.urlopen(url)
@@ -42,7 +43,7 @@ def stop_to_xml(stop_data, pred_data, direction):
     # Include any HTML/CSS desired to style the description box's contents.
     description_items.append("<p style=\"margin:0\">Route: " + pred_data["predictions"]["routeTitle"] + "</p>")
     description_items.append("<p style=\"margin:0\">Direction: " + direction + "</p>")
-    description_items.append("<p style=\"margin:0\">Stop: " + stop_data["title"] + "</p>")
+    description_items.append("<p style=\"margin:0\">Stop: " + stop_data["title"].replace(" & ", " &amp; ") + "</p>")
     if "direction" in pred_data["predictions"]:     # If the direction object exists, there are predictions. Else there are none.
         times = []      #List to hold the arrival and departure times of the next buses.
         for prediction in pred_data["predictions"]["direction"]["prediction"]:
@@ -99,7 +100,7 @@ def main():
             with open("D:\\home\\site\\wwwroot\\NextBus\\jfk_longterm.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
         else:
-            with open("D:\\home\\site\\wwwroot\\NextBus\\jfk_misc.geojson", "w") as f:
+            with open("jfk_misc.geojson", "w") as f:
                 json.dump(path, f, ensure_ascii=False, indent=4)
         stops = json_route["route"]["stop"]
         predictions_url = ("http://webservices.nextbus.com/service/publicJSONFeed?command=predictions&a=jfk&r=" + tag)
@@ -108,12 +109,12 @@ def main():
             stop_url = predictions_url + "&s=" + j["tag"]
             json_stop = get_json_parsed(stop_url)
             stop_info.append(stop_to_xml(j,json_stop,json_route["route"]["direction"]["tag"]))
-        xml_header = "<rss version=\"2.0\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\">\n\t<channel>\n\t\t"
+        xml_header = "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<rss version=\"2.0\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\">\n\t<channel>\n\t\t"
         xml_content = "<title></title>\n\t\t<link />\n\t\t<description />\n\t\t"
         xml_footer = "\n\t</channel>\n</rss>"
         if (tag == "c"):
             print("cargo")
-            #url for writing to azure: D:\\home\\site\\wwwroot\\NextBus\\jfk_cargo_points.xml
+            #url for writing to azure: D:\\home\\site\\wwwroot\\NextBus\\jfk_cargo_points.geojson
             with open("D:\\home\\site\\wwwroot\\NextBus\\jfk_cargo_points.xml", "w+") as f:
                 f.write(xml_header + xml_content + "\n\t\t".join(stop_info) + xml_footer)
         elif (tag == "s"):
@@ -122,7 +123,7 @@ def main():
                 f.write(xml_header + xml_content + "\n\t\t".join(stop_info) + xml_footer)
         elif (tag == "e"):
             print("employee")
-            with open("D:\\home\\site\\wwwroot\\NextBus\\jfk_employee_points.xml", "w+") as f:
+            with open("jfk_employee_points.xml", "w+") as f:
                 f.write(xml_header + xml_content + "\n\t\t".join(stop_info) + xml_footer)
         elif (tag == "l"):
             print("long term")

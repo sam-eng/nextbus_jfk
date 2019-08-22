@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
 	<channel>
 		<title></title>
@@ -7,8 +8,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 00 Federal Circle &#8211; Cargo Service Road & Rental Car North</p>
-				<p style="margin:0">Departures: <strong>38, 80 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 00 Federal Circle &#8211; Cargo Service Road &amp; Rental Car North</p>
+				<p style="margin:0">Departures: <strong>12, 54, 96 minutes </strong></p>
 			</description>
 			<geo:lat>40.661111</geo:lat>
 			<geo:long>-73.803333</geo:long>
@@ -17,8 +18,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 32 &#8211; 148th Street & South Cargo Road</p>
-				<p style="margin:0">Arrivals: <strong>43, 85 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 32 &#8211; 148th Street &amp; South Cargo Road</p>
+				<p style="margin:0">Arrivals: <strong>17, 59 minutes </strong></p>
 			</description>
 			<geo:lat>40.6550849</geo:lat>
 			<geo:long>-73.7915028</geo:long>
@@ -27,8 +28,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 34 &#8211; 148th Street & Center Cargo Road</p>
-				<p style="margin:0">Arrivals: <strong>43, 85 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 34 &#8211; 148th Street &amp; Center Cargo Road</p>
+				<p style="margin:0">Arrivals: <strong>16, 58 minutes </strong></p>
 			</description>
 			<geo:lat>40.6580587</geo:lat>
 			<geo:long>-73.7937231</geo:long>
@@ -37,8 +38,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 34 &#8211; 148th Street & Center Cargo Road</p>
-				<p style="margin:0">Arrivals: <strong>14, 59 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 34 &#8211; 148th Street &amp; Center Cargo Road</p>
+				<p style="margin:0">Arrivals: <strong>33, 75 minutes </strong></p>
 			</description>
 			<geo:lat>40.6580582</geo:lat>
 			<geo:long>-73.793723</geo:long>
@@ -47,8 +48,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 37 &#8211; North Boundary Road & 150th Avenue</p>
-				<p style="margin:0">Arrivals: <strong>2, 46, 88 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 37 &#8211; North Boundary Road &amp; 150th Avenue</p>
+				<p style="margin:0">Arrivals: <strong>20, 62 minutes </strong></p>
 			</description>
 			<geo:lat>40.6616209</geo:lat>
 			<geo:long>-73.789836</geo:long>
@@ -57,8 +58,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 38 &#8211; West Boundary Road & 150th Avenue</p>
-				<p style="margin:0">Arrivals: <strong>13, 58 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 38 &#8211; West Boundary Road &amp; 150th Avenue</p>
+				<p style="margin:0">Arrivals: <strong>31, 73 minutes </strong></p>
 			</description>
 			<geo:lat>40.6616597</geo:lat>
 			<geo:long>-73.7901131</geo:long>
@@ -67,8 +68,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 39 &#8211; North Boundary Road & Federal Express</p>
-				<p style="margin:0">Arrivals: <strong>3, 47, 89 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 39 &#8211; North Boundary Road &amp; Federal Express</p>
+				<p style="margin:0">Arrivals: <strong>20, 62 minutes </strong></p>
 			</description>
 			<geo:lat>40.663009</geo:lat>
 			<geo:long>-73.7850049</geo:long>
@@ -77,8 +78,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 40 &#8211; North Boundary Road & Federal Express</p>
-				<p style="margin:0">Arrivals: <strong>12, 57 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 40 &#8211; North Boundary Road &amp; Federal Express</p>
+				<p style="margin:0">Arrivals: <strong>30, 72 minutes </strong></p>
 			</description>
 			<geo:lat>40.6626489</geo:lat>
 			<geo:long>-73.7832558</geo:long>
@@ -87,8 +88,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 41 &#8211; North Boundary Road & North Hangar Road</p>
-				<p style="margin:0">Arrivals: <strong>4, 48, 90 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 41 &#8211; North Boundary Road &amp; North Hangar Road</p>
+				<p style="margin:0">Arrivals: <strong>21, 63 minutes </strong></p>
 			</description>
 			<geo:lat>40.6605322</geo:lat>
 			<geo:long>-73.7788986</geo:long>
@@ -97,8 +98,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 42 &#8211; North Boundary Road & North Hangar Road</p>
-				<p style="margin:0">Arrivals: <strong>11, 56, 98 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 42 &#8211; North Boundary Road &amp; North Hangar Road</p>
+				<p style="margin:0">Arrivals: <strong>29, 71 minutes </strong></p>
 			</description>
 			<geo:lat>40.6606168</geo:lat>
 			<geo:long>-73.7785948</geo:long>
@@ -107,8 +108,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 44 &#8211; North Boundary Road & Farmers Blvd</p>
-				<p style="margin:0">Arrivals: <strong>10, 55, 97 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 44 &#8211; North Boundary Road &amp; Farmers Blvd</p>
+				<p style="margin:0">Arrivals: <strong>29, 71 minutes </strong></p>
 			</description>
 			<geo:lat>40.659435</geo:lat>
 			<geo:long>-73.775291</geo:long>
@@ -117,8 +118,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 46 &#8211; North Boundary Road & Farmers Blvd</p>
-				<p style="margin:0">Arrivals: <strong>5, 49, 91 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 46 &#8211; North Boundary Road &amp; Farmers Blvd</p>
+				<p style="margin:0">Arrivals: <strong>22, 64 minutes </strong></p>
 			</description>
 			<geo:lat>40.6585718</geo:lat>
 			<geo:long>-73.7741039</geo:long>
@@ -127,8 +128,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 47 &#8211; North Boundary Road & Old Rockaway Blvd</p>
-				<p style="margin:0">Arrivals: <strong>9, 54, 96 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 47 &#8211; North Boundary Road &amp; Old Rockaway Blvd</p>
+				<p style="margin:0">Arrivals: <strong>28, 70 minutes </strong></p>
 			</description>
 			<geo:lat>40.6572989</geo:lat>
 			<geo:long>-73.7716018</geo:long>
@@ -137,8 +138,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 48 &#8211; North Boundary Road & Old Rockaway Blvd</p>
-				<p style="margin:0">Arrivals: <strong>6, 50, 92 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 48 &#8211; North Boundary Road &amp; Old Rockaway Blvd</p>
+				<p style="margin:0">Arrivals: <strong>23, 65 minutes </strong></p>
 			</description>
 			<geo:lat>40.6570681</geo:lat>
 			<geo:long>-73.7716081</geo:long>
@@ -147,8 +148,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 250  - Post Office North Boundary Road & Old Rockaway Blvd (Building 250)</p>
-				<p style="margin:0">Arrivals: <strong>6, 51, 93 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 250  - Post Office North Boundary Road &amp; Old Rockaway Blvd (Building 250)</p>
+				<p style="margin:0">Arrivals: <strong>24, 66 minutes </strong></p>
 			</description>
 			<geo:lat>40.6530479</geo:lat>
 			<geo:long>-73.7663731</geo:long>
@@ -157,8 +158,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 49 &#8211; Eastern Road & Eastern Road (Building 250)</p>
-				<p style="margin:0">Arrivals: <strong>8, 53, 95 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 49 &#8211; Eastern Road &amp; Eastern Road (Building 250)</p>
+				<p style="margin:0">Arrivals: <strong>26, 68 minutes </strong></p>
 			</description>
 			<geo:lat>40.6533215</geo:lat>
 			<geo:long>-73.7666713</geo:long>
@@ -167,8 +168,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 53 &#8211; South Cargo Road & Cargo Plaza Road</p>
-				<p style="margin:0">Arrivals: <strong>16, 61 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 53 &#8211; South Cargo Road &amp; Cargo Plaza Road</p>
+				<p style="margin:0">Arrivals: <strong>34, 76 minutes </strong></p>
 			</description>
 			<geo:lat>40.6528051</geo:lat>
 			<geo:long>-73.7950058</geo:long>
@@ -177,8 +178,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 55 &#8211; Cargo Plaza Road & Building 84</p>
-				<p style="margin:0">Arrivals: <strong>17, 62 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 55 &#8211; Cargo Plaza Road &amp; Building 84</p>
+				<p style="margin:0">Arrivals: <strong>35, 77 minutes </strong></p>
 			</description>
 			<geo:lat>40.6555622</geo:lat>
 			<geo:long>-73.795325</geo:long>
@@ -187,8 +188,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 57 &#8211; Cargo Plaza Road & Center Cargo Road</p>
-				<p style="margin:0">Arrivals: <strong>17, 62 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 57 &#8211; Cargo Plaza Road &amp; Center Cargo Road</p>
+				<p style="margin:0">Arrivals: <strong>36, 78 minutes </strong></p>
 			</description>
 			<geo:lat>40.658803</geo:lat>
 			<geo:long>-73.795277</geo:long>
@@ -197,8 +198,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 59 &#8211; Cargo Plaza Road & 150th Avenue</p>
-				<p style="margin:0">Arrivals: <strong>18, 63 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 59 &#8211; Cargo Plaza Road &amp; 150th Avenue</p>
+				<p style="margin:0">Arrivals: <strong>36, 78 minutes </strong></p>
 			</description>
 			<geo:lat>40.6611142</geo:lat>
 			<geo:long>-73.795263</geo:long>
@@ -207,8 +208,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 36 &#8211; 150th Avenue & 148th Street</p>
-				<p style="margin:0">Arrivals: <strong>13, 59 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 36 &#8211; 150th Avenue &amp; 148th Street</p>
+				<p style="margin:0">Arrivals: <strong>32, 74 minutes </strong></p>
 			</description>
 			<geo:lat>40.6610317</geo:lat>
 			<geo:long>-73.7929417</geo:long>
@@ -217,8 +218,8 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Cargo Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 77 &#8211; Eastern Road & Eastern Road (Building 77)</p>
-				<p style="margin:0">Arrivals: <strong>7, 52, 94 minutes </strong></p>
+				<p style="margin:0">Stop: Bus Stop 77 &#8211; Eastern Road &amp; Eastern Road (Building 77)</p>
+				<p style="margin:0">Arrivals: <strong>25, 67 minutes </strong></p>
 			</description>
 			<geo:lat>40.6512958</geo:lat>
 			<geo:long>-73.766452</geo:long>

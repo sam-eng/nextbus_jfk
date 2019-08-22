@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
 	<channel>
 		<title></title>
@@ -7,7 +8,7 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 00 Federal Circle &#8211; Cargo Service Road & Rental Car North</p>
+				<p style="margin:0">Stop: Bus Stop 00 Federal Circle &#8211; Cargo Service Road &amp; Rental Car North</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
 			</description>
 			<geo:lat>40.661111</geo:lat>
@@ -17,7 +18,7 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 11 - North Van Wyck Service Road & Building 23</p>
+				<p style="margin:0">Stop: Bus Stop 11 - North Van Wyck Service Road &amp; Building 23</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
 			</description>
 			<geo:lat>40.6500437</geo:lat>
@@ -27,7 +28,7 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 13 - North Van Wyck Service Road & Building 21</p>
+				<p style="margin:0">Stop: Bus Stop 13 - North Van Wyck Service Road &amp; Building 21</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
 			</description>
 			<geo:lat>40.6530246</geo:lat>
@@ -37,7 +38,7 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 14 - South Van Wyck Service Road & Building 14</p>
+				<p style="margin:0">Stop: Bus Stop 14 - South Van Wyck Service Road &amp; Building 14</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
 			</description>
 			<geo:lat>40.6525229</geo:lat>
@@ -47,7 +48,7 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 15 - North Van Wyck Service Road & Building 120</p>
+				<p style="margin:0">Stop: Bus Stop 15 - North Van Wyck Service Road &amp; Building 120</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
 			</description>
 			<geo:lat>40.654779</geo:lat>
@@ -57,7 +58,7 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 17 - North Van Wyck Service Road & American Freight</p>
+				<p style="margin:0">Stop: Bus Stop 17 - North Van Wyck Service Road &amp; American Freight</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
 			</description>
 			<geo:lat>40.6574501</geo:lat>
@@ -67,7 +68,7 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 18 - 130th Place & East Hangar Road</p>
+				<p style="margin:0">Stop: Bus Stop 18 - 130th Place &amp; East Hangar Road</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
 			</description>
 			<geo:lat>40.6550147</geo:lat>
@@ -77,7 +78,7 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 19 - South Van Wyck Service Road & Building 23</p>
+				<p style="margin:0">Stop: Bus Stop 19 - South Van Wyck Service Road &amp; Building 23</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
 			</description>
 			<geo:lat>40.6494679</geo:lat>
@@ -87,7 +88,7 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 20a -130th Place & West Hangar Road</p>
+				<p style="margin:0">Stop: Bus Stop 20a -130th Place &amp; West Hangar Road</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
 			</description>
 			<geo:lat>40.6569003</geo:lat>
@@ -97,7 +98,7 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 21 - South Van Wyck Service Road & Building 90</p>
+				<p style="margin:0">Stop: Bus Stop 21 - South Van Wyck Service Road &amp; Building 90</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
 			</description>
 			<geo:lat>40.6448062</geo:lat>
@@ -107,7 +108,7 @@
 			<title>Next Tracked Vehicles</title>
 			<description><p style="margin:0">Route: Service Road Route</p>
 				<p style="margin:0">Direction: loop</p>
-				<p style="margin:0">Stop: Bus Stop 22 - 130th Place & Bergen Road</p>
+				<p style="margin:0">Stop: Bus Stop 22 - 130th Place &amp; Bergen Road</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
 			</description>
 			<geo:lat>40.658895</geo:lat>
