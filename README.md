@@ -13,7 +13,7 @@ Within the subfolder vehicle_locations, there is code to creade an XML file disp
 * Replace "jfk" in the urls with the new agency tag you wish to use.
 * Alter the name of the file created so that it reflects the name of the new agency. I suggest using the format [agency tag]_locations.xml, but you can rename the files how you like.
 
-#To Do:
+# To Do:
 * Find a way to represent a stop that is on multiple routes (i.e. JFK's Federal Circle stop is both on the Service Route and the Cargo Route). The fix for now is to put different routes on different dashboards.
 * Clean up code and document in comments (or somewhere else) how the JSON retrieved from NextBus' public JSON feed is structured
 * Find a way to distinguish bus locations from stop locations (figure out how to have a custom icon on Metro-OPS that does maintain the precise location of the bus/stops).
