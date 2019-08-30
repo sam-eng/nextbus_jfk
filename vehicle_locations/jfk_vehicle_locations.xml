@@ -7,14 +7,20 @@
 		<item>
 			<title>804</title>
 			<description>Cargo Route</description>
-			<geo:lat>40.6551</geo:lat>
-			<geo:long>-73.795377</geo:long>
+			<geo:lat>40.654993</geo:lat>
+			<geo:long>-73.791387</geo:long>
+			<icon>
+				http://geocoderbeta.tieslink.com/Content/Icons/Location.png
+			</icon>
 		</item>
 		<item>
 			<title>802</title>
 			<description>Long Term Parking Lot</description>
-			<geo:lat>40.658239</geo:lat>
-			<geo:long>-73.810384</geo:long>
+			<geo:lat>40.661218</geo:lat>
+			<geo:long>-73.8295</geo:long>
+			<icon>
+				http://geocoderbeta.tieslink.com/Content/Icons/Location.png
+			</icon>
 		</item>
 	</channel>
 </rss>

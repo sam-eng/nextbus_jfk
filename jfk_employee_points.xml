@@ -6,50 +6,71 @@
 		<description />
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<description><p style="margin:0">Route: Employee Lot </p>
+			<description>
+				<![CDATA[<html>
+				<p style="margin:0">Route: Employee Lot </p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Employee Lot 1</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
+			</html>
+			]]>
 			</description>
 			<geo:lat>40.661896</geo:lat>
 			<geo:long>-73.82144</geo:long>
+			<icon>https://at123.azurewebsites.net/NextBus/untitled.png</icon>
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<description><p style="margin:0">Route: Employee Lot </p>
+			<description>
+				<![CDATA[<html>
+				<p style="margin:0">Route: Employee Lot </p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Employee Lot 2</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
+			</html>
+			]]>
 			</description>
 			<geo:lat>40.6623759</geo:lat>
 			<geo:long>-73.82005</geo:long>
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<description><p style="margin:0">Route: Employee Lot </p>
+			<description>
+				<![CDATA[<html>
+				<p style="margin:0">Route: Employee Lot </p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Employee Lot 3</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
+			</html>
+			]]>
 			</description>
 			<geo:lat>40.663066</geo:lat>
 			<geo:long>-73.8202782</geo:long>
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<description><p style="margin:0">Route: Employee Lot </p>
+			<description>
+				<![CDATA[<html>
+				<p style="margin:0">Route: Employee Lot </p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Employee Lot 4</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
+			</html>
+			]]>
 			</description>
 			<geo:lat>40.6632899</geo:lat>
 			<geo:long>-73.8222246</geo:long>
 		</item>
 		<item>
 			<title>Next Tracked Vehicles</title>
-			<description><p style="margin:0">Route: Employee Lot </p>
+			<description>
+				<![CDATA[<html>
+				<p style="margin:0">Route: Employee Lot </p>
 				<p style="margin:0">Direction: loop</p>
 				<p style="margin:0">Stop: Employee Lot 5</p>
 				<p style="margin:0"><strong>No Current Predictions</strong></p>
+			</html>
+			]]>
 			</description>
 			<geo:lat>40.6622196</geo:lat>
 			<geo:long>-73.8231767</geo:long>

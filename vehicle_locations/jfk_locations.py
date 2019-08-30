@@ -17,7 +17,8 @@ def vehicle_json_to_xml(data, route_title):
     lon = "<geo:long>" + data["lon"] + "</geo:long>"
     title = "<title>" + data["id"] + "</title>"
     description = "<description>" + route_title + "</description>"
-    item = "<item>\n\t\t\t" + title + "\n\t\t\t" + description + "\n\t\t\t" + lat + "\n\t\t\t" + lon + "\n\t\t</item>"
+    xml_icon = "\n\t\t\t<icon>\n\t\t\t\thttp://geocoderbeta.tieslink.com/Content/Icons/Location.png\n\t\t\t</icon>"
+    item = "<item>\n\t\t\t" + title + "\n\t\t\t" + description + "\n\t\t\t" + lat + "\n\t\t\t" + lon + xml_icon + "\n\t\t</item>"
     return item
 
 def main():
